@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Softrate Blog - Deep Learning</title>
+    <link rel="stylesheet" href="../Styles/Blog.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="icon" href="../assests/img/logo.png" type="image/icon type">
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Firebase -->
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.6.5/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.6.5/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- JS ANIMATION LIB -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js" integrity="sha512-1LlEYE0qExJ/GUfAJ0k2K2fB5sIvMv/q6ueo3syohvQ3ElWDQVSMUOf39cxaDWHtNu7M6lF6ZC1H6A1m3SvheA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css" integrity="sha512-m3pAvNriL711NMlhkZHK6K4Tu2/RjtrzyjxZU8mlAbxxoDoURy27KajN1LGTLeEEPvaN12mKAgSCrYEwF9y0jA==" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav-logo">
+            <a href="../blogs.html"><img src="../assests/img/logo.png" alt="logo" srcset=""></a>
+        </div>
+        <div class="links">
+            <p href="#" id="Sign_In">Sign In</p>
+            <p href="#" id="Sign_Out"></p>
+        </div>
+    </div>
+
+
+    <main id="site-main">
+
+
+        <section class="container">
+            <article id="post">
+
+                <div class="headings text-center">
+                    <div class="category">
+                        <a href="../blogs.html" class="nav-link">Softrate blog</a>
+                    </div>
+
+                    <div class="title">
+                        <h2 class="text-title text-dark display-1" id="title"> Deep learning going to make future smart
+                        </h2>
+                        <p id="title_intro_para"> Deep Learning is a branch of Machine Learning which is based on a set of algorithms that attempts to model high-level abstractions in data by using a deep graph with multiple processing layers which are composed of multiple non-linear
+                            and linear transformations. It is an artificial intelligence (AI) function that imitates the working of the human brain in processing data and creating patterns for the use of decision making. Deep learning is a subset of machine
+                            learning in artificial intelligence that has networks capable of learning unsupervised from data that is unstructured or unlabeled. Also known as deep neural learning or deep neural network.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="thumbnail mt-3">
+                    <img src="../assests/Blog-Images/deep-learning-softrate.jpg" id="img_1" class="thumbnail" alt="">
+                </div>
+
+
+                <div class="content text-dark display-1 secondary-title">
+                    <h3>What is meant by Capsule Networks?
+                    </h3>
+                    <p id="first-para"> Capsule Neural Network is a machine learning system used in better model hierarchical relations. The capsule Neural Network is commonly known as CapsNet. Therefore, it is defined as a neural net architecture that has a profound impact
+                        on deep learning. It especially works for computer vision. CapsNet is composed of numerous capsules. Each capsule is a small group of neurons that learns to detect a particular object. For example, consider the object- a square,
+                        and it must lie within a given region of the image. It outputs a vector (e.g., an 8-dimensional vector whose length represents the estimated probability that the object is present. In addition, the orientation (e.g., in 8D space)
+                        encodes the object’s pose parameters. If the position of an object is changed slightly then the capsule output will be a vector image with the same length. A CapsNet is organized in multiple layers, very much like a regular neural
+                        network. The capsules in the lowest layer are called primary capsules. Each of them receives a small region of the image as input. It tries to detect the presence and poise of a particular pattern
+
+                    </p>
+
+                    <h3>Capsule Networks Hinton
+                    </h3>
+                    <p id="second-para"> Geoffrey Hinton was a leading British-Canadian researcher specializing in artificial neural networks. He was one of the first researchers to demonstrate the application of the backpropagation algorithm for training multilayer neural
+                        networks. This technique has since been widely adopted in the world of artificial intelligence. Capsule Networks Hinton has become extremely popular among researchers across the world.
+
+                    </p>
+
+                    <h3>Advantages of using CapsNets for Deep Learning:
+                    </h3>
+                    <div class="post-tags" id="lists_2">
+
+                        <li class="nav-link btn bg-light" key="0">CapsNets are capable of generalizing using much fewer data in contrast to ConvNets which require a large amount of reference data for the training phase
+                        </li>
+
+                        <li class="nav-link btn bg-light" key="1">These never lose information between layers, unlike ConvNets.
+                        </li>
+
+                        <li class="nav-link btn bg-light" key="2">CapsNets can provide the hierarchy of characteristics found, for example, these lips belong to this face. However, the same operation with a ConvNet involves additional components.
+                        </li>
+                    </div>
+
+                    <p id="third-para">
+                    </p>
+
+                    <div class="post-tags" id="lists">
+                    </div>
+                    <div class="subtopic" id="subtopic">
+
+                        <div class="first_subtopic" id="first_subtopic">
+                            <div class="topic_title first_subtopic_title" id="first_subtopic_title">Few Shot Learning (FSL):
+                            </div>
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                Few-shot learning (FSL), also referred to as low-shot learning (LSL) in few sources, is a type of machine learning problem where the training dataset contains limited information.
+                            </p>
+
+                            <p id="first_subtopic_content" class="subtopic_content"> A common practice for machine learning applications is to feed as much data as the model can take. This is because in most machine learning applications feeding more data enables the model to predict better. However, few-shot
+                                learning aims to build accurate machine learning models with less training data. As the dimension of input data is a factor that determines resource costs (e.g., time costs, computational costs, etc) companies can reduce
+                                data analysis/machine learning (ML) costs by using few-shot learning</p>
+
+
+                            <div class="topic_title first_subtopic_title" id="first_subtopic_title">Importance of Few Shot Learning (FSL):
+                            </div>
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                <span>Test base for learning like humans:</span> Humans can spot the difference between handwritten characters after seeing a few examples. However, computers need large amounts of data to classify what they “see” and spot
+                                the difference between handwritten characters. Few-shot learning is a test base where computers are expected to learn from a few examples like humans.
+
+                            </p>
+
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                <span>Learning for rare cases:</span> By using few-shot learning, machines can learn rare cases. For example, when classifying images of animals, a machine learning model trained with few-shot learning techniques can classify
+                                an image of a rare species correctly after being exposed to a small amount of prior information.
+                            </p>
+
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                <span>Reducing data collection effort and computational costs:</span> As few-shot learning requires fewer data to train a model, high costs related to data collection and labeling are eliminated. A low amount of training
+                                data means low dimensionality in the training dataset, which can significantly reduce computational costs.
+                            </p>
+
+
+                            <div class="topic_title first_subtopic_title" id="first_subtopic_title">Applications of Few-shot Learning
+
+                            </div>
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                <span>Computer Vision:</span> Computer vision explores how computers can gain high-level understanding from digital images or videos. Few-shot learning is used mainly in computer vision to deal with problems
+                            </p>
+
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                <span>Learning for rare cases:</span> By using few-shot learning, machines can learn rare cases. For example, when classifying images of animals, a machine learning model trained with few-shot learning techniques can classify
+                                an image of a rare species correctly after being exposed to a small amount of prior information.
+                            </p>
+
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                <span>Natural Language Processing:</span> Few-shot learning enables natural language processing applications to complete tasks with few examples of text data.
+
+                            </p>
+
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                <span>Acoustic Signal Processing:</span> F Data that contains information regarding voices/sounds can be analyzed by acoustic signal processing </p>
+
+                            <div class="topic_title first_subtopic_title" id="first_subtopic_title">What is GAN-based Data Augmentation
+                            </div>
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                Generative adversarial networks(GAN) were introduced by Ian Goodfellow in 2014 and have been a very active topic of machine learning research in recent years. GAN’s are unsupervised generative models which implicitly learn an underlying distribution.
+                                In the GAN framework, the learning process is a minimax game between two networks such as a generator and discriminator, where a generator, which generates synthetic data given a random noise vector, and a discriminator
+                                discriminates between real data and the generator’s synthetic data.
+
+                            </p>
+                            <div class="topic_title first_subtopic_title" id="first_subtopic_title">Robotics</div>
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                For robots to behave more like humans, they should be able to generalize information from a few demonstrations. Therefore, few-shot learning plays a critical role in training robots to complete certain tasks
+
+                            </p>
+
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                They are a clever way of training a generative model by framing the problem as a supervised learning problem with two sub-models: Such as a generator model that we train to generate new examples and the discriminator model that tries to classify examples
+                                as either real (from the domain) or fake (generated). The two models are trained together in a zero-sum game, adversarial, until the discriminator model is fooled about half the time, meaning the generator model is generating
+                                plausible examples.
+                            </p>
+
+                            <div class="topic_title first_subtopic_title" id="first_subtopic_title">Data Augmentation
+                            </div>
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                Getting a larger dataset is one of the most reliable ways to improve the performance of a machine learning algorithm. In some cases, adding generated or synthetic data or a process known as data augmentation can also improve performance. Data Augmentation
+                                using GANs is used for generating synthetic data for a binary classification problem. It showed that a decision tree classifier performed better when trained on this synthetic dataset than when trained on the original small
+                                dataset. However, this seems to be an exceptional case, and this straightforward approach to data augmentation has a better chance of working on very small datasets. The Effectiveness of Data Augmentation in Image Classification
+                                Using Deep Learning, the authors found that straightforward data augmentation using GANs was less effective than other augmentation strategies.
+                            </p>
+
+                            <div class="topic_title first_subtopic_title" id="first_subtopic_title">Deep learning in industrial 5.0
+
+                            </div>
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                Robotics presents many unique challenges for learning algorithms. First, robots must perform a wide range of tasks, and it is often time-consuming or even infeasible to code completely new learning algorithms and features for each task. Second, robots
+                                must handle a huge amount of variety in the real world, which is difficult for many learning algorithms to handle. Finally, time is at a premium in most robotic applications, so learning algorithms must lend themselves
+                                to fast inference to be useful for robotic applications. Deep learning algorithms make them ideal choices for robotics. Modern deep learning techniques make use of unsupervised feature learning algorithms to learn good
+                                features from data to initialize the network. This allows the final back-propagation step to obtain better, more general results by starting from a good representation of the problem. These feature learning methods are
+                                particularly important in robotics, as for many robotic tasks, it is very difficult to design useful features by hand. For example, hand-designing visual features are useful for grasping. However, most other learning algorithms
+                                would require significant work to similarly reduce the feature set, since the engineer would have to test different feature sets and weigh the trade-offs each gives in terms of accuracy vs. performance. Deep learning approaches
+                                let us simply define the size of the feature set to be learned and allow the algorithm to learn an optimal task-specific feature set of that size
+                            </p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="thumbnail mt-3">
+                        <img src="../assests/Blog-Images/deep-learning-softrate-inside.jpg" id="img_2" class="thumbnail" alt="">
+                    </div>
+                </div>
+            </article>
+
+
+            <div class="post-footer mb-3">
+                <div class="post-tags d-flex flex-wrap justify-content-center">
+                    <a href="#" class="nav-link btn bg-light">#techology</a>
+                    <a href="#" class="nav-link btn bg-light">#deeplearning</a>
+                    <a href="#" class="nav-link btn bg-light">#coding</a>
+                </div>
+
+                <div class="post-author text-center">
+                    <div class="author-avatar">
+                        <img src="../assests/img/blog/padmaja.jpg" class="rounded" id="author_img" alt="">
+                    </div>
+
+                    <div class="author-info py-2">
+                        <h3 class="text-dark" id="author_name">Padmaja S</h3>
+
+                        <p class="text-secondary secondary-title">
+                            <p id="date"></p>
+                        </p>
+
+                        <div class="post-tags d-flex flex-wrap justify-content-center">
+                            <a href="https://www.linkedin.com/in/company/softrate" target="_blank" class="nav-link"><i class="fab fa-linkedin-f">LinkedIn</i></a>
+                            <a href="https://twitter.com/softrate" target="_blank" class="nav-link"><i class="fab fa-twitter">Twitter</i></a>
+                            <a href="https://www.instagram.com/softrate/" target="_blank" class="nav-link"><i class="fab fa-instagram">Instagram</i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="post-comments py-2">
+                    <h3 class="text-center display-1 secondary-title py-2">Comments</h3>
+
+                    <div class="comment-details" id="comments">
+                        <!-- Commenst  -->
+                    </div>
+
+                    <h3 class="text-center display-1 secondary-title py-2">Leave Comment</h3>
+
+                    <div class="comment-form">
+                        <textarea class="form-control mt-3" placeholder="Message" id="user_input" value="" rows="5"></textarea>
+                        <div class="text-center">
+                            <button type="submit" id="btn_post" class="btn btn-primary display-2 text-light mt-2 ">Submit</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+
+    <script src="../Javascript/Blog_result.js"></script>
+</body>
+
+</html>

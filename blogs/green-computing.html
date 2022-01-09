@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Softrate Blog - Green Computing</title>
+    <link rel="stylesheet" href="../Styles/Blog.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="icon" href="../assests/img/logo.png" type="image/icon type">
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Firebase -->
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.6.5/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.6.5/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- JS ANIMATION LIB -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js" integrity="sha512-1LlEYE0qExJ/GUfAJ0k2K2fB5sIvMv/q6ueo3syohvQ3ElWDQVSMUOf39cxaDWHtNu7M6lF6ZC1H6A1m3SvheA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css" integrity="sha512-m3pAvNriL711NMlhkZHK6K4Tu2/RjtrzyjxZU8mlAbxxoDoURy27KajN1LGTLeEEPvaN12mKAgSCrYEwF9y0jA==" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav-logo">
+            <a href="../blogs.html"><img src="../assests/img/logo.png" alt="logo" srcset=""></a>
+        </div>
+        <div class="links">
+            <p href="#" id="Sign_In">Sign In</p>
+            <p href="#" id="Sign_Out"></p>
+        </div>
+    </div>
+
+
+    <main id="site-main">
+
+
+        <section class="container">
+            <article id="post">
+
+                <div class="headings text-center">
+                    <div class="category">
+                        <a href="../blogs.html" class="nav-link">Softrate blog</a>
+                    </div>
+
+                    <div class="title">
+                        <h2 class="text-title text-dark display-1" id="title">Green Computing
+                        </h2>
+                        <p id="title_intro_para">Green computing can be defined as the study of designing, engineering, manufacturing, using and disposing of computing devices. Computing has also established its share to contribute by saving the environment under the concept
+                            called green computing. It appears in a large number of aspects which includes recycling, energy-efficient devices, eco-friendly vehicles, green buildings etc.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="thumbnail mt-3">
+                    <img src="../assests/Blog-Images/green-computing-softrate.jpg" id="img_1" class="thumbnail" alt="">
+                </div>
+
+
+                <div class="content text-dark display-1 secondary-title">
+                    <h3>Purpose of Green computing
+                    </h3>
+                    <p id="first-para">The main aim of green computing is to attain economic viability and improve the way of computing devices which are being used. It includes the development of environmentally sustainable production practices and improved disposal and
+                        recycling procedures.
+
+                    </p>
+                    <h3>Goals of Green computing
+                    </h3>
+                    <div class="post-tags" id="lists_2">
+
+                        <li class="nav-link btn bg-light" key="0">It reduces the use of hazardous materials.
+                        </li>
+
+                        <li class="nav-link btn bg-light" key="1">It maximizes the energy efficiency during the product’s lifetime, recyclability and factory waste.
+                        </li>
+
+                        <li class="nav-link btn bg-light" key="2">Design algorithms to improve computer’s efficiency.
+                        </li>
+                    </div>
+
+
+                    <p id="second-para">All these above goals are similar to green chemistry. The concept of green computing is more critical as we move towards cities. The term green computing came into existence in the year 1992. It was named as Energy Star. This energy
+                        star was used in all the electronic products such as printers, television and refrigerators.
+
+                    </p>
+
+                    <div class="post-tags" id="lists">
+                    </div>
+                    <div class="subtopic" id="subtopic">
+
+                        <h3> Types of green computing systems
+
+                        </h3>
+                        <div class="post-tags" id="lists_2">
+
+                            <li class="nav-link btn bg-light" key="0">Solar power system
+
+                            </li>
+
+                            <li class="nav-link btn bg-light" key="1">Wind turbine program
+
+                            </li>
+
+                            <li class="nav-link btn bg-light" key="2">Geothermal power
+
+                            </li>
+                        </div>
+
+                        <div class="first_subtopic" id="first_subtopic">
+                            <div class="topic_title first_subtopic_title" id="first_subtopic_title">Solar power system:
+                            </div>
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                In this type, we utilize the sunlight and produce solar power for our own personal and commercial use. Canada, Spain and California are the countries who implemented this technology and stands first by doing a great achievement. Solar panel converts electricity
+                                power into electrical energy.
+
+                            </p>
+                            <div class="topic_title first_subtopic_title" id="first_subtopic_title">Wind turbine program:
+                            </div>
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                With the help of this program, anybody can generate electricity. We require a huge amount to set up a wind turbine. It decreases carbon dioxide emissions.
+
+                            </p>
+                            <div class="topic_title first_subtopic_title" id="first_subtopic_title">Geothermal Power:
+                            </div>
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                This is an exclusive type of green computing. We can generate electricity with the help of a geothermal plant. We can utilize this power for daily usage such as heating and cooling.
+
+                            </p>
+
+
+                            <br><br>
+                            <br><br>
+                            <div class="topic_title first_subtopic_title" id="first_subtopic_title">Approaches to Green Computing :
+                            </div>
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                Abstract the computer resources for example, connecting one printer with all computers. If we use a common server and connect all the terminals, we can save the power upto 80%. Green computing technology improves the efficiency of personal computers used
+                                by an individual.
+                            </p>
+
+                            <div class="topic_title first_subtopic_title" id="first_subtopic_title">Strategies
+                            </div>
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                Green computing has decreased the consumption of overhead energy, maximizing the server usage through a strategy including server virtualization. But technologies like data analytics, artificial intelligence can reduce the progress in green computing
+                                strategies </p>
+
+                            <div class="post-tags" id="lists_2">
+                                <h3>Applications of Green computing
+                                </h3>
+                                <li class="nav-link btn bg-light" key="0">Green wireless network
+                                </li>
+
+                                <li class="nav-link btn bg-light" key="1">Energy management in data centres.
+                                </li>
+
+                                <li class="nav-link btn bg-light" key="2">Green cloud computing along with genetic algorithms.
+                                </li>
+                                <li class="nav-link btn bg-light" key="2">Green parallel computing with big data systems.
+                                </li>
+                            </div>
+
+
+                            <div class="topic_title first_subtopic_title" id="first_subtopic_title">Advantages of Green computing
+
+                            </div>
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                Conservation of resources means less energy is required to produce, use and dispose of products. It reduces the existing exposure in all the electronic devices. It encourages reuse and recyclability. Sustainable computing means reduced energy consumption.
+                                It helps in the preservation and effective utilization of natural resources.
+                            </p>
+
+                            <div class="topic_title first_subtopic_title" id="first_subtopic_title">Disadvantages of Green computing
+
+                            </div>
+                            <p id="first_subtopic_content" class="subtopic_content">
+                                It is quite expensive. Frequent change in technology. It can cause more burden to an individual. Only fewer courses and publications are available for green computing.
+
+                            </p>
+                            <div class="post-tags" id="lists_2">
+                                <h3>We can support green computing by doing some of the below activities.
+
+                                </h3>
+                                <li class="nav-link btn bg-light" key="0">Use energy star-labelled products. </li>
+
+                                <li class="nav-link btn bg-light" key="1">Turn off your computing devices when not in use
+                                </li>
+                                <li class="nav-link btn bg-light" key="2">Purchase your IT equipment from environmentally committed companies only. Use voice over internet protocol technology to reduce the wiring infrastructure and metallic wastes.
+                                </li>
+                                <li class="nav-link btn bg-light" key="2">Use an optimal brightness level to conserve power.
+                                </li>
+                                <li class="nav-link btn bg-light" key="2">Enable the power management feature on your computing devices. </li>
+                                <li class="nav-link btn bg-light" key="2">Always look for green packaging solutions.</li>
+                                <li class="nav-link btn bg-light" key="2">Use all your IT peripherals only when required.</li>
+                            </div>
+                        </div>
+
+
+                        <div class="topic_title first_subtopic_title" id="first_subtopic_title">Conclusion:
+                        </div>
+                        <p id="first_subtopic_content" class="subtopic_content">
+                            Various IT industries and organizations in the world started adopting green computing practices and it has become the main part of their day-to-day activities. Now it’s our duty to understand the importance of green computing and work collaboratively
+                            together for a healthier and a greener environment for our future generations. By adopting the practices, we can get an eco-friendly environment along with our benefits such as energy conservation and waste minimization.
+                        </p>
+
+                    </div>
+                    <div class="thumbnail mt-3">
+                        <img src="../assests/Blog-Images/green-computing-softrate-inside.jpg" id="img_2" class="thumbnail" alt="">
+                    </div>
+                </div>
+            </article>
+
+
+            <div class="post-footer mb-3">
+                <div class="post-tags d-flex flex-wrap justify-content-center">
+                    <a href="#" class="nav-link btn bg-light">#tech</a>
+                    <a href="#" class="nav-link btn bg-light">#software</a>
+                    <a href="#" class="nav-link btn bg-light">#Coding</a>
+                </div>
+
+                <div class="post-author text-center">
+                    <div class="author-avatar">
+                        <img src="../assests/img/blog/padmaja.jpg" class="rounded" id="author_img" alt="">
+                    </div>
+
+                    <div class="author-info py-2">
+                        <h3 class="text-dark" id="author_name">Padmaja S</h3>
+
+                        <p class="text-secondary secondary-title">
+                            <p id="date"></p>
+                        </p>
+
+                        <div class="post-tags d-flex flex-wrap justify-content-center">
+                            <a href="https://www.linkedin.com/in/company/softrate" target="_blank" class="nav-link"><i class="fab fa-linkedin-f">LinkedIn</i></a>
+                            <a href="https://twitter.com/softrate" target="_blank" class="nav-link"><i class="fab fa-twitter">Twitter</i></a>
+                            <a href="https://www.instagram.com/softrate/" target="_blank" class="nav-link"><i class="fab fa-instagram">Instagram</i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="post-comments py-2">
+                    <h3 class="text-center display-1 secondary-title py-2">Comments</h3>
+
+                    <div class="comment-details" id="comments">
+                        <!-- Commenst  -->
+                    </div>
+
+                    <h3 class="text-center display-1 secondary-title py-2">Leave Comment</h3>
+
+                    <div class="comment-form">
+                        <textarea class="form-control mt-3" placeholder="Message" id="user_input" value="" rows="5"></textarea>
+                        <div class="text-center">
+                            <button type="submit" id="btn_post" class="btn btn-primary display-2 text-light mt-2 ">Submit</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+
+    <script src="../Javascript/Blog_result.js"></script>
+</body>
+
+</html>

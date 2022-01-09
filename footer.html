@@ -1,0 +1,117 @@
+<div class="containers">
+	<div class="rows">
+		<div class="footer-col">
+			<h4 class="left-align"><span>About Softrate</span></h4>
+			<div class="company" >				
+				<ul>
+					<li ><a href="about.html" id="footer-about">About us</a></li>
+					<li ><a href="services.html" id="footer-service">Our services</a></li>
+					<li ><a href="privacy-policy.html" id="footer-policy">Privacy policy</a></li>
+					<li ><a href="terms-and-conditions.html" id="footer-terms">Terms of service</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="footer-col">
+			<h4 class="left-align"><span>Discover</span></h4>
+			<div class="company" >
+				<ul>
+					<li ><a href="testimonials.html" id="footer-test">Testimonials</a></li>
+					<li ><a href="careers.html" id="footer-career">Career at Softrate</a></li>
+					<li ><a href="blogs.html" id="footer-blogs">Blogs</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="footer-col">
+			<h4 class="left-align"><span>Get help</span></h4>
+			<ul class="contact-us">
+				<li class="email breakWord"><a href="tel:+916383612433" >Call: +916383612433</a></li>
+				<li class="email breakWord"><a target="_blank" href="mailto:softrateindia@gmail.com">softrateindia@gmail.com</a></li>
+			</ul>
+		</div>
+		
+		<div class="footer-col image-list">
+			<h4><span>Love the hustle</span></h4>
+			<ul>
+				<!-- <div class="hustle"> -->
+
+				<li><a target="_blank" rel="nofollow" href="http://curiouswings.in/"><img src="assests/images/softrate-subsidiary-curious-wings-logo.png" alt="curious-wings-logo" title="Curious Wings official website"></a></li>
+				<li><a target="_blank" rel="nofollow" href="https://deepdrones.netlify.app/"><img src="assests/images/softrate-subsidiary-deep-drones.png" alt="deepdrones-logo" title="Deepdrones offical website"></a></li>
+				<li><a target="_blank" rel="nofollow" href="https://softrate-innovation-hub.netlify.app/"><img src="assests/images/innovationhub.png" alt="innovation-hub-logo" title="Softrate Research and Innovation Space"></a></li>
+
+				<!-- </div> -->
+			</ul>
+		</div>
+		<div class="footer-col social-list">
+			<h4><span>follow us</span></h4>
+			<div class="social-links">
+				<a target="_blank" rel="nofollow" href="https://www.facebook.com/softrate"><i class="fab fa-facebook-f"></i></a>
+				<a target="_blank" rel="nofollow" href="https://twitter.com/softrate"><i class="fab fa-twitter"></i></a>
+				<a target="_blank" rel="nofollow" href="https://www.instagram.com/softrate/"><i class="fab fa-instagram"></i></a>
+				<a target="_blank" rel="nofollow" href="https://www.linkedin.com/company/softrate"><i class="fab fa-linkedin-in"></i></a>
+				<a target="_blank" rel="nofollow" href="https://www.youtube.com/channel/UC2saVFCaPT4rlI-a2Ngkd5g"><i class="fab fa-youtube"></i></a>
+			</div>
+			<div class="footer-image">
+				<a target="_blank" rel="nofollow" href="https://softrate-groups.netlify.app/"><img src="assests/img/softrate-logo-footer.png" alt="Softrate Groups" title="Softrate Group of Companies"></a>
+				<!-- <img src="assests/img/softrate-logo-footer.png" alt="softrate-logo"> -->
+			</div>
+		</div>
+	</div>
+	<div class="copyrights">
+		<p>© 2022 Softrate. All Rights Reserved.</p>
+	</div>
+</div>
+
+<script>
+    var loc = window.location.href;
+	if(loc.includes("careers.html")) {
+		document.getElementById("footer-career").href = "#";
+        document.getElementById("footer-service").href = "services.html";
+        document.getElementById("footer-test").href = "testimonials.html";
+        document.getElementById("footer-about").href = "about.html";
+        document.getElementById("footer-policy").href = "privacy-policy.html";
+        document.getElementById("footer-terms").href = "terms-and-conditions.html";
+    }
+    
+    if(loc.includes("services.html")) {
+		document.getElementById("footer-career").href = "careers.html";
+        document.getElementById("footer-service").href = "#";
+        document.getElementById("footer-test").href = "testimonials.html";
+        document.getElementById("footer-about").href = "about.html";
+        document.getElementById("footer-policy").href = "privacy-policy.html";
+        document.getElementById("footer-terms").href = "terms-and-conditions.html";
+    }
+    if(loc.includes("about.html")) {
+		document.getElementById("footer-career").href = "careers.html";
+        document.getElementById("footer-service").href = "services.html";
+        document.getElementById("footer-test").href = "testimonials.html";
+        document.getElementById("footer-about").href = "#";
+        document.getElementById("footer-policy").href = "privacy-policy.html";
+        document.getElementById("footer-terms").href = "terms-and-conditions.html";
+    }
+    if(loc.includes("testimonials.html")) {
+		document.getElementById("footer-career").href = "careers.html";
+        document.getElementById("footer-service").href = "services.html";
+        document.getElementById("footer-test").href = "#";
+        document.getElementById("footer-about").href = "about.html";
+        document.getElementById("footer-policy").href = "privacy-policy.html";
+        document.getElementById("footer-terms").href = "terms-and-conditions.html";
+    }
+    if(loc.includes("terms-and-conditions.html")) {
+		document.getElementById("footer-career").href = "careers.html";
+        document.getElementById("footer-service").href = "services.html";
+        document.getElementById("footer-test").href = "testimonials.html";
+        document.getElementById("footer-about").href = "about.html";
+        document.getElementById("footer-policy").href = "privacy-policy.html";
+        document.getElementById("footer-terms").href = "#";
+    }
+    if(loc.includes("privacy-policy.html")) {
+		document.getElementById("footer-career").href = "careers.html";
+        document.getElementById("footer-service").href = "services.html";
+        document.getElementById("footer-test").href = "testimonials.html";
+        document.getElementById("footer-about").href = "about.html";
+        document.getElementById("footer-policy").href = "#";
+        document.getElementById("footer-terms").href = "terms-and-conditions.html";
+    }
+</script>

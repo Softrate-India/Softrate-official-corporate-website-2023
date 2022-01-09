@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Softrate Blog - WEB DEVELOPMENT PROJECTS AND IDEAS</title>
+    <link rel="stylesheet" href="../Styles/Blog.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="icon" href="../assests/img/logo.png" type="image/icon type">
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Firebase -->
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.6.5/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.6.5/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- JS ANIMATION LIB -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js" integrity="sha512-1LlEYE0qExJ/GUfAJ0k2K2fB5sIvMv/q6ueo3syohvQ3ElWDQVSMUOf39cxaDWHtNu7M6lF6ZC1H6A1m3SvheA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css" integrity="sha512-m3pAvNriL711NMlhkZHK6K4Tu2/RjtrzyjxZU8mlAbxxoDoURy27KajN1LGTLeEEPvaN12mKAgSCrYEwF9y0jA==" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav-logo">
+            <a href="../blogs.html"><img src="../assests/img/logo.png" alt="logo" srcset=""></a>
+        </div>
+        <div class="links">
+            <p href="#" id="Sign_In">Sign In</p>
+            <p href="#" id="Sign_Out"></p>
+        </div>
+    </div>
+
+
+    <main id="site-main">
+
+
+        <section class="container">
+            <article id="post">
+
+                <div class="headings text-center">
+                    <div class="category">
+                        <a href="../blogs.html" class="nav-link">Softrate blog</a>
+                    </div>
+
+                    <div class="title">
+                        <h2 class="text-title text-dark display-1" id="title">WEB DEVELOPMENT PROJECT AND IDEAS</h2>
+                        <p id="title_intro_para">Web development is the work involved in developing a website for the internet .It can range from developing a simple single page of plain text to complex web based internet applications ,electronic business and social network services.
+                            There are many projects and ideas in web development fields which is been discussed below..</p>
+                    </div>
+
+                </div>
+
+                <div class="thumbnail mt-3">
+                    <img src="../assests/Blog-Images/web-development-softrate.jpg"
+                        id="img_1" class="thumbnail" alt="">
+                </div>
+
+
+                <div class="content text-dark display-1 secondary-title mt-3">
+                    <p id="first-para"></p>
+
+                    <p id="second-para"></p>
+
+                    <p id="third-para">
+                    </p>
+
+                    <div class="post-tags" id="lists">
+                    </div>
+
+                    <div class="post-tags" id="lists_2">
+                        <h2>Sub topics</h2>
+                    </div>
+
+                    <div class="subtopic" id="subtopic">
+
+                        <div class="first_subtopic" id="first_subtopic">
+                            <div class="topic_title first_subtopic_title" id="first_subtopic_title"></div>
+                            <p id="first_subtopic_content" class="subtopic_content"> </p>
+                        </div>
+
+                        <div class="second_subtopic" id="second_subtopic">
+                            <div class="topic_title first_subtopic_title" id="second_subtopic_title"></div>
+                            <p id="second_subtopic_content" class="subtopic_content"></p>
+                        </div>
+
+                        <div class="third_subtopic" id="third_subtopic">
+                            <div class="topic_title third_subtopic_title" id="third_subtopic_title"></div>
+                            <p id="third_subtopic_content" class="subtopic_content"></p>
+                        </div>
+
+                        <div class="fourth_subtopic" id="fourth_subtopic">
+                            <div class="topic_title fourth_subtopic_title" id="fourth_subtopic_title"></div>
+                            <p id="fourth_subtopic_content" class="subtopic_content"></p>
+                        </div>
+
+                        <div class="sub_points" id="sub_ponits_section">
+                            <div>
+                                <h3 key="{i}">PARTNER-IN-HOBBY:</h3>
+                                <p>We are faced to have hobby which is been felt bored at times. This application helps one to connect people around the residence who have similar interest and hobbies as ones. One can reach out to them ,get together and
+                                    work on their hobby. The app will also allow the users to host events and share their experiences. This application also has the very good business potential. But the difficulty level is that one should have a good
+                                    knowledge about the database management and other backend technologies.</p>
+
+                                <h3 key="{i}">DATA ARCHIVER:</h3>
+                                <p>The application can allow one to save certain peace of information into one’s archives for later use .Information like news, chats, and links can be saved. This is been generally used for personal use and not for the business
+                                    level .As long as one has strong development skills, the application is not that difficult to create.</p>
+
+                                <h3 key="{i}">QUICK EATS APP:</h3>
+                                <p>This is the application that allows one to post one’s dish whenever he/she likes it. A consumer in one’s vicinity could place an order for one’s dish. The application is user friendly to allow the cooks to serve whenever
+                                    required. This application has a higher difficult level and a great business potential.</p>
+
+                                <h3 key="{i}">MEMES AND GIFS:</h3>
+                                <p>The primary mode of the information transfer is through memes. From local news to world news, everything is made a meme out of it. This application allows their users to create their memes and gifs with the help of prebuild
+                                    blogss. The users can also create their own repository. This is relatively a simple application to create and has a great business potential.</p>
+
+                                <h3 key="{i}">THE BOOK TUBE:</h3>
+                                <p>With the help of the simple user interface, one can build a book database with the help of books and their reviews. This is a great project for the book lovers and a great idea for the beginners. Building a simple version
+                                    of this idea will be easy. Although it doesn’t have a great business potential , it could be a great project for the beginners . </p>
+
+                                <h3 key="{i}">NOTIFICATIONS APP:</h3>
+                                <p>This application comes with the simple user interface that consolidates all the information for the user. For example, personalized news highlights ,whether reports, important tasks on one’s to do list, reminders etc will
+                                    be provided. The user can also set the time to notify the user perhaps on the metro or on the morning run. This app is easy to create .It doesn’t have much business value,it is extremely easy to build. It is the perfect
+                                    web app for beginners. </p>
+
+                                <h3 key="{i}">THE FAMILY APP:</h3>
+                                <p>There are a lot of activites that a family does together which includes shoping, cooking to household chores. Almost every member of the family has their own phone. A family app will include a family calender, a list taking
+                                    app ,a photo gallery and a foroum.Combined these features will help organize the families iving time and energy. A statistical record shows that market to such applications is really high. </p>
+                            </div>
+                        </div>
+                        <!-- <div class="third_subtopic" id="third_subtopic">
+                            <div class="third_subtopic_title" id="third_subtopic_title"></div>
+                            <p id="third_subtopic_content">
+                            </p>
+                        </div> -->
+                    </div>
+                    <div class="thumbnail mt-3">
+                        <img src="../assests/Blog-Images/web-development-softrate-inside.jpg" id="img_2" class="thumbnail" alt="">
+                    </div>
+                </div>
+            </article>
+
+
+            <div class="post-footer mb-3">
+                <div class="post-tags d-flex flex-wrap justify-content-center">
+                    <a href="#" class="nav-link btn bg-light">#tech</a>
+                    <a href="#" class="nav-link btn bg-light">#webdevelopment</a>
+                    <a href="#" class="nav-link btn bg-light">#coding</a>
+                </div>
+
+                <div class="post-author text-center">
+                    
+                        <div class="author-avatar">
+                            <img src="../assests/img/blog/padmaja.jpg" class="rounded" id="author_img" alt="">
+                        </div>
+                
+
+                    <div class="author-info py-2">
+                        <h3 class="text-dark" id="author_name">Padmaja S</h3>
+
+                        <p class="text-secondary secondary-title">
+                        </p>
+                        <p id="date">19th Dec - 2021</p>
+                        <p></p>
+
+                        <div class="post-tags d-flex flex-wrap justify-content-center">
+                            <a href="https://www.linkedin.com/in/company/softrate" target="_blank" class="nav-link"><i class="fab fa-linkedin-f">LinkedIn</i></a>
+                            <a href="https://twitter.com/softrate" target="_blank" class="nav-link"><i class="fab fa-twitter">Twitter</i></a>
+                            <a href="https://www.instagram.com/softrate/" target="_blank" class="nav-link"><i class="fab fa-instagram">Instagram</i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="post-comments py-2">
+                    <h3 class="text-center display-1 secondary-title py-2">Comments</h3>
+
+                    <div class="comment-details" id="comments">
+                        <!-- Commenst  -->
+
+
+                        <h3 class="text-center display-1 secondary-title py-2">Leave Comment</h3>
+
+                        <div class="comment-form">
+                            <textarea class="form-control mt-3" placeholder="Message" id="user_input" value="" rows="5"></textarea>
+                            <div class="text-center">
+                                <button type="submit" id="btn_post" class="btn btn-primary display-2 text-light mt-2 " style="font-family: Poppins, Arial;">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+        </section>
+
+    </main>
+
+    <script src="../Javascript/Blog_result.js"></script>
+</body>
+
+</html>
