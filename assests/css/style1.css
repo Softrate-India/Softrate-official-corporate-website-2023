@@ -1,0 +1,334 @@
+/* === Google Font Import - Poppins === */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+#secslid{
+  position: relative;  
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  width:100%;
+  
+}
+
+.swiper{
+    top: -20px;
+    width: 100% !important;
+    
+}
+
+.client-says-header h2{
+    color: #000;
+    font-size: 4vw;
+    text-align: center;
+    margin: 8vh 0px;
+}
+.card{
+  position: absolute;
+  background: #fff;
+  border-radius: 20px;
+  margin: 20px 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  top: -40px;
+}
+
+.card:hover{
+  transform: scale(1.02);
+  -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear; transition: all 0.3s linear;
+}
+
+.card::before{
+  content: "";
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  background: #7d2ae8;
+  border-radius: 20px 20px 0 0;
+}
+
+.card .card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  z-index: 100;
+}
+
+section .card .image{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  padding: 3px;
+  background: #7d2ae8;
+}
+
+section .card .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.card .media-icons{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card .media-icons i{
+  color: #fff;
+  opacity: 0.6;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card .media-icons i:hover{
+  opacity: 1;
+}
+
+.card .name-profession{
+  /* width:min-content; */
+  margin-top: 10px;
+  /* padding-left: 40px; */
+  /* padding-left: 40px; */
+} 
+
+.name-profession .name{
+  font-size: 12px;
+  font-weight: 600;
+  top: -20px;
+  margin-right: 140px;
+}
+@media(max-width:410px){
+  .name-profession .name{
+    font-size: 12px;
+    font-weight: 600;
+    top: -20px;
+    width:max-content;
+    margin-right: 100px;
+  }
+}
+
+.name-profession .name2{
+  font-size: 15px;
+  font-weight: 600;
+  text-transform:uppercase !important;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+@media(max-width:410px){
+  .name-profession .name2{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform:uppercase !important;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+.name-profession1 .name3{
+  font-size: 12px;
+  font-weight: 600;
+  top: -20px;
+}
+
+.name1{
+  margin-top:-20px;
+  margin-bottom: 20px;
+}
+
+.name-profession .profession{
+  font-size:15px;
+  font-weight: 600;
+  
+}
+.name-profession1 {
+  margin-right: 100px !important;
+}
+
+.p2{
+  margin-top: 10px;
+  margin-right: 20px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.df{
+  margin-top: 10px;
+}
+.df1{
+  margin-top: 5px;
+}
+
+#clilog{
+  width: 50px;
+  height: 50px;
+  top: -30px;
+  border-radius: 300px;
+  box-shadow: 0px 1px 10px grey;
+}
+#clilog1{
+  width: 80px;
+  height: 30px;
+  
+  border-radius: 300px;
+  box-shadow: 0px 1px 10px grey;
+}
+#clilog2{
+  width: 80px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 300px;
+  box-shadow: 0px 1px 10px grey;
+}
+
+#clilog3{
+  width: 50px;
+  height: 50px;
+  top: -30px;
+  border-radius: 300px;
+  box-shadow: 0px 1px 10px grey;
+  margin-left: 50px;
+}
+
+#clilog4{
+  width: 80px;
+  height: 30px;
+  margin-left: 50px;
+  border-radius: 300px;
+  box-shadow: 0px 1px 10px grey;
+}
+
+.p1{
+  margin-top: 30px;
+}
+
+.card .rating{
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.card .rating i{
+  font-size: 18px;
+  margin: 0 2px;
+  color: #7d2ae8;
+}
+
+.card .button{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.card .button button{
+  background: #7d2ae8;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 8px 22px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.button button:hover{
+  background: #6616d0;
+}
+
+.swiper-pagination{
+  position: absolute;
+}
+
+.swiper-pagination-bullet{
+  height: 7px;
+  width: 26px;
+  border-radius: 25px;
+  background: #7d2ae8;
+}
+
+.swiper-button-next, .swiper-button-prev{
+  opacity: 0.7;
+  border-radius: 10px;
+  font: 20px !important;;
+  color: #000 !important;
+  transition: all 0.3s ease;
+}
+.swiper-button-next:hover, .swiper-button-prev:hover{
+  opacity: 1;
+  color: #000;
+}
+
+.cutoff-text{
+  --max-lines:2;
+  --line-height:1.4;
+  max-height: calc(var(--max-lines)*1em * var(--line-height));
+  line-height: var(--line-height);
+  overflow: hidden;
+  position: relative;
+}
+.cutoff-text1{
+  --max-lines:1;
+  --line-height:1.4;
+  max-height: calc(var(--max-lines)*1em * var(--line-height));
+  line-height: var(--line-height);
+  overflow: hidden;
+  position: relative;
+}
+.cutoff-text.cutoff-text:has(+ .seemore-btn:not(:checked)) ::before{
+  content: "";
+  position: absolute;
+  height: calc(1em * var(--line-height));
+  width: 100%;
+  bottom: 0;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent, white);
+}
+.cutoff-text1.cutoff-text1:has(+ .seemore-btn:not(:checked)) ::before{
+  content: "";
+  position: absolute;
+  height: calc(1em * var(--line-height));
+  width: 100%;
+  bottom: 0;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent, white);
+}
+button{
+  margin-top: auto;
+  border:none;
+}
+.seemore-btn {
+  appearance: none;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 8px 22px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.seemore-btn:hover{
+  background-color: #7d2ae8;
+}
+.seemore-btn::before{
+  content: "Show more";
+}
+.seemore-btn:checked::before{
+  content: "Show less";
+}
+.cutoff-text:has(+ .seemore-btn:checked){
+  max-height: none;
+}
+.cutoff-text1:has(+ .seemore-btn:checked){
+  max-height: none;
+}

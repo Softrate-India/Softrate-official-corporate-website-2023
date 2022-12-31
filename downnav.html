@@ -1,7 +1,7 @@
 <a href="index.html" id="down-nav-index">
     <i class="bi bi-house-door-fill"></i>
 </a>
-<a href="about.html" id="down-nav-about">
+<a href="about-us.html" id="down-nav-about">
     <i class="bi bi-file-person"></i>
 </a>
 <a href="services.html" id="down-nav-service">
@@ -10,7 +10,7 @@
 <a href="testimonials.html" id="down-nav-testimonial">
     <i class="bi bi-person-check-fill" ></i>          
       </a>
-<a href="contact.html" id="down-nav-contact">
+<a href="contact-us.html" id="down-nav-contact">
     <i class="bi bi-person-lines-fill" ></i>
 </a>
 
@@ -20,36 +20,36 @@
     if(loc.includes("services.html")) {
         document.getElementById("down-nav-service").href = "#";
         document.getElementById("down-nav-testimonial").href = "testimonials.html";
-        document.getElementById("down-nav-about").href = "about.html";
+        document.getElementById("down-nav-about").href = "about-us.html";
         document.getElementById("down-nav-index").href = "index.html";
-        document.getElementById("down-nav-contact").href = "contact.html";
+        document.getElementById("down-nav-contact").href = "contact-us.html";
 
         document.getElementById("down-nav-service").classList.add("activeNav");
 
 
     }
-    if(loc.includes("about.html")) {
+    if(loc.includes("about-us.html")) {
         document.getElementById("down-nav-service").href = "services.html";
         document.getElementById("down-nav-testimonial").href = "testimonials.html";
         document.getElementById("down-nav-about").href = "#";
         document.getElementById("down-nav-index").href = "index.html";
-        document.getElementById("down-nav-contact").href = "contact.html";
+        document.getElementById("down-nav-contact").href = "contact-us.html";
 
         document.getElementById("down-nav-about").classList.add("activeNav");
     }
     if(loc.includes("testimonials.html")) {
         document.getElementById("down-nav-service").href = "services.html";
         document.getElementById("down-nav-testimonial").href = "#";
-        document.getElementById("down-nav-about").href = "about.html";
+        document.getElementById("down-nav-about").href = "about-us.html";
         document.getElementById("down-nav-index").href = "index.html";
-        document.getElementById("down-nav-contact").href = "contact.html";
+        document.getElementById("down-nav-contact").href = "contact-us.html";
 
         document.getElementById("down-nav-testimonial").classList.add("activeNav");
     }
-    if(loc.includes("contact.html")) {
+    if(loc.includes("contact-us.html")) {
         document.getElementById("down-nav-service").href = "services.html";
         document.getElementById("down-nav-testimonial").href = "testimonials.html";
-        document.getElementById("down-nav-about").href = "about.html";
+        document.getElementById("down-nav-about").href = "about-us.html";
         document.getElementById("down-nav-index").href = "index.html";
         document.getElementById("down-nav-contact").href = "#";
 
@@ -58,9 +58,9 @@
     if(loc.includes("index.html")) {
         document.getElementById("down-nav-service").href = "services.html";
         document.getElementById("down-nav-testimonial").href = "testimonials.html";
-        document.getElementById("down-nav-about").href = "about.html";
+        document.getElementById("down-nav-about").href = "about-us.html";
         document.getElementById("down-nav-index").href = "#";
-        document.getElementById("down-nav-contact").href = "contact.html";
+        document.getElementById("down-nav-contact").href = "contact-us.html";
 
         document.getElementById("down-nav-index").classList.add("activeNav");
     }

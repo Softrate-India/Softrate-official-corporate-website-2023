@@ -9,7 +9,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 /* Nav-Bar */
-
+html,body{
+  width:100%;
+  overflow-x: hidden;
+}
 .nav {
   padding: 20px;
   height: 80px;
@@ -49,7 +52,10 @@ body {
   color: #186fd2 !important;
 }
 
+
 @media screen and (max-width: 300px) {
+
+
   .nav-logo {
     width: 100%;
     text-align: center;
@@ -871,9 +877,10 @@ header p {
 }
 
 #portfolio .portfolio-item figure {
-  background: #000;
+  /* background: #000; */
   overflow: hidden;
   height: 240px;
+  object-fit: cover;
   position: relative;
   border-radius: 4px 4px 0 0;
   margin: 0;
@@ -940,8 +947,10 @@ header p {
   text-align: center;
   padding: 45px;
   height: 90px;
+  
   border-radius: 0 0 3px 3px;
 }
+
 
 #portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;

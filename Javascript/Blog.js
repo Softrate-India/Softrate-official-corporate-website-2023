@@ -15,3 +15,4 @@ for (var i = 0; i <= blog_clicked.length; i++) {
 
     })
 }
+ 

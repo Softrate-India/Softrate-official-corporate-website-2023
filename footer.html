@@ -1,13 +1,13 @@
 <div class="containers">
 	<div class="rows">
 		<div class="footer-col">
-			<h4 class="left-align"><span>About Softrate</span></h4>
+			<h4 class="left-align"><span>Our Services</span></h4>
 			<div class="company" >				
 				<ul>
-					<li ><a href="about.html" id="footer-about">About us</a></li>
-					<li ><a href="services.html" id="footer-service">Our services</a></li>
-					<li ><a href="privacy-policy.html" id="footer-policy">Privacy policy</a></li>
-					<li ><a href="terms-and-conditions.html" id="footer-terms">Terms of service</a></li>
+					<li ><a href="./web-designing-and-development.html" >Web designing & development</a></li>
+					<li ><a href="./custom-mobile-app-development.html" >Mobile apps development</a></li>
+					<li ><a href="./digital-business-transformational-services.html" >Digital business transformat services</a></li>
+					<li ><a href="./creative-graphics-designing.html" >Graphic designing & digital art</a></li>
 				</ul>
 			</div>
 		</div>
@@ -18,7 +18,7 @@
 				<ul>
 					<li ><a href="testimonials.html" id="footer-test">Testimonials</a></li>
 					<li ><a href="careers.html" id="footer-career">Career at Softrate</a></li>
-					<li ><a href="https://drive.google.com/drive/folders/1YQJjEqvKKWJwEXuAfarE613j6Ll2Rdq3?usp=sharing" id="footer-career">Resources</a></li>
+					<li ><a href="https://softrateinnovationhub.ml">Innovation Hub</a></li>
 					<li ><a href="blogs.html" id="footer-blogs">Blogs</a></li>
 				</ul>
 			</div>
@@ -27,8 +27,11 @@
 		<div class="footer-col">
 			<h4 class="left-align"><span>Get help</span></h4>
 			<ul class="contact-us">
-				<li class="email breakWord"><a href="tel:+918148633580" >Call: +918148633580</a></li>
-				<li class="email breakWord"><a target="_blank" href="mailto:softrateindia@gmail.com">softrateindia@gmail.com</a></li>
+				<li class="email breakWord"><a href="tel:+916383612433" >Call: +91 8148600580 /</a></li>
+				<li class="email breakWord"><a href="tel:+916383612433" > +91 6383612433</a></li>
+				<li class="email breakWord"><a target="_blank" href="mailto:helpdesk@softrateindia.com">helpdesk@softrateindia.com</a></li>
+				<li class="email breakWord"><a target="_blank" href="mailto:hr@softrateindia.com">hr@softrateindia.com</a></li>
+					
 			</ul>
 		</div>
 		
@@ -60,17 +63,24 @@
 		</div>
 	</div>
 	<div class="copyrights">
-		<p>© 2022 Softrate. All Rights Reserved.</p>
+		<p style="margin-bottom: -6px; color: rgba(50, 48, 48, 0.763);">	<a href="./index.html" style="color: rgba(231, 231, 231, 0.993); text-decoration: none;" >Company</a> | <a  style="color: rgba(231, 231, 231, 0.993); text-decoration: none;"  href="./privacy-policy.html">Privacy Policy</a> | <a href="./terms-and-conditions.html"  style="color: rgba(231, 231, 231, 0.993); text-decoration: none;" >Terms Of Service</a>
+		</p>
+		<p>© <span id="currentYear"></span> Softrate. All Rights Reserved.</p>
 	</div>
 </div>
 
 <script>
+	const yearSpan = document.querySelector('#currentYear');
+	const currentYear = new Date();
+	yearSpan.innerText = currentYear.getFullYear();
+
+
     var loc = window.location.href;
 	if(loc.includes("careers.html")) {
 		document.getElementById("footer-career").href = "#";
         document.getElementById("footer-service").href = "services.html";
         document.getElementById("footer-test").href = "testimonials.html";
-        document.getElementById("footer-about").href = "about.html";
+        document.getElementById("footer-about").href = "about-us.html";
         document.getElementById("footer-policy").href = "privacy-policy.html";
         document.getElementById("footer-terms").href = "terms-and-conditions.html";
     }
@@ -79,11 +89,11 @@
 		document.getElementById("footer-career").href = "careers.html";
         document.getElementById("footer-service").href = "#";
         document.getElementById("footer-test").href = "testimonials.html";
-        document.getElementById("footer-about").href = "about.html";
+        document.getElementById("footer-about").href = "about-us.html";
         document.getElementById("footer-policy").href = "privacy-policy.html";
         document.getElementById("footer-terms").href = "terms-and-conditions.html";
     }
-    if(loc.includes("about.html")) {
+    if(loc.includes("about-us.html")) {
 		document.getElementById("footer-career").href = "careers.html";
         document.getElementById("footer-service").href = "services.html";
         document.getElementById("footer-test").href = "testimonials.html";
@@ -95,7 +105,7 @@
 		document.getElementById("footer-career").href = "careers.html";
         document.getElementById("footer-service").href = "services.html";
         document.getElementById("footer-test").href = "#";
-        document.getElementById("footer-about").href = "about.html";
+        document.getElementById("footer-about").href = "about-us.html";
         document.getElementById("footer-policy").href = "privacy-policy.html";
         document.getElementById("footer-terms").href = "terms-and-conditions.html";
     }
@@ -103,7 +113,7 @@
 		document.getElementById("footer-career").href = "careers.html";
         document.getElementById("footer-service").href = "services.html";
         document.getElementById("footer-test").href = "testimonials.html";
-        document.getElementById("footer-about").href = "about.html";
+        document.getElementById("footer-about").href = "about-us.html";
         document.getElementById("footer-policy").href = "privacy-policy.html";
         document.getElementById("footer-terms").href = "#";
     }
@@ -111,7 +121,7 @@
 		document.getElementById("footer-career").href = "careers.html";
         document.getElementById("footer-service").href = "services.html";
         document.getElementById("footer-test").href = "testimonials.html";
-        document.getElementById("footer-about").href = "about.html";
+        document.getElementById("footer-about").href = "about-us.html";
         document.getElementById("footer-policy").href = "#";
         document.getElementById("footer-terms").href = "terms-and-conditions.html";
     }

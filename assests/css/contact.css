@@ -17,7 +17,11 @@ body {
     z-index: 1000;
     justify-content: space-between;
 }
-
+@media(max-width:600px){
+    .nre{
+        margin-right: 100px;
+    }
+}
 .nav-logo {
     float: left;
     height: auto;
